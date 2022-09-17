@@ -75,7 +75,7 @@ function up()
 		greencar_y = greencar_y - 10;
 		uploadBackground();
 		uploadgreencar();
-
+                console.log(greencar_x, greencar_y);
 	}
 }
 
@@ -86,6 +86,7 @@ function down()
 		greencar_y = greencar_y + 10;
 		uploadBackground();
 		uploadgreencar();
+		console.log(greencar_x, greencar_y);
 	}
 }
 
@@ -96,6 +97,7 @@ function left()
 		greencar_x = greencar_x - 10;
 		uploadBackground();
 		uploadgreencar();
+		console.log(greencar_x, greencar_y);
 	}
 }
 
@@ -106,5 +108,6 @@ function right()
 		greencar_x = greencar_x + 10;
 		uploadBackground();
 		uploadgreencar();
+		console.log(greencar_x, greencar_y);
 	}
 }
